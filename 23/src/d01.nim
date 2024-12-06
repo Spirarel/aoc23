@@ -31,7 +31,7 @@ proc part2(input: string): int =
     result += mutLine.expandWords.fuseFirstAndLastNumber
 
 proc run() = 
-  let input = "../input/input_01".readFile
+  let input = "../input/1.in".readFile
   echo "Part One: ", part1(input)
   echo "Part Two: ", part2(input)
 
